@@ -14,8 +14,6 @@ library("MASS")
 library("MLmetrics")
 
 Food_insecurity <-  read.csv("C:/Users/DELL/OneDrive/COURSERA COURSES/GOOGLE ANALYTIC/R/Google Data Analytic/Food_security/Food_security/Data/tidy_data/5foodsec_label.csv")
-Food_insecurity <- Food_insecurity %>% 
-  filter(employment_status== "Employed" |employment_status== "Unemployed")
 
 Food_insecurity %>% 
   group_by(status) %>% 
