@@ -1,4 +1,4 @@
-Food_insecurity <-  read.csv("C:/Users/DELL/OneDrive/COURSERA COURSES/GOOGLE ANALYTIC/R/Google Data Analytic/Food_security/Food_security/Data/tidy_data/Food_insecurity_data.csv")
+Food_insecurity <-  read.csv("../Food_insecurity_data.csv")
 Food_insecurity <- Food_insecurity %>%
   dplyr:: select(-c(9:21))
 
