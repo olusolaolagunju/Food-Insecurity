@@ -8,7 +8,7 @@ library(sjlabelled) # regression model
 sessionInfo()
 library(tidyverse)
 
-Food_insecurity <-  read.csv("C:/Users/DELL/OneDrive/COURSERA COURSES/GOOGLE ANALYTIC/R/Google Data Analytic/Food_security/Food_security/Data/tidy_data/5foodsec_label.csv")
+Food_insecurity <-  read.csv("../Food_insecurity_data.csv")
 
 # # food security percentage 
  
